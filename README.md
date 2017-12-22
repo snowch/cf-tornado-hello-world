@@ -1,7 +1,9 @@
 Example bootstrap project for tornado on Cloud Foundry.
 
-After deploying, load test with:
+Deploy with:
 
 ```
-siege -c 10 -r 10 http://cf-tornado-hw.mybluemix.net/
+git clone https://github.com/snowch/cf-tornado-hello-world
+cd cf-tornado-hello-world
+cf push
 ```
